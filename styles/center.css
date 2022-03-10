@@ -1,0 +1,70 @@
+.hero-section > .hero-wrapper-right > .img-right img {
+    width: 200%;
+}
+
+.hero-section {
+    align-content: center;
+    color: rgb(245, 245, 245);
+    background-color: #4a4747;
+    margin-top: 8px;
+    margin-bottom: -44px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: inset -59px -61px 74px 9px rgba(0,0,0,0.68);
+}
+
+.hero-section > .hero-wrapper-left > .text-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.hero-wrapper-right {
+    width: 245px;
+    margin: 1px;
+    padding: 3em;
+    float: left;
+}
+
+.hero-wrapper-left {
+    width: 700px;
+    padding: 3em;
+    margin: 2px;
+    float: left;
+}
+
+.hero-section > .hero-wrapper-left > .text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+}
+
+.hero-section > .hero-wrapper-right > .text-head {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;  
+}
+
+
+.hero-section > .hero-wrapper-left > .text-box > .left-box {
+    background-color: rgb(75, 160, 75);
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    width: 15em;
+    border-radius: 3px;
+    color: black;
+}
+
+.hero-section > .hero-wrapper-left > .text-box > .right-box {
+    background-color: black;
+    font-size: 22px;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 1em;
+    margin-right: 5px;
+    border-radius: 3px;
+    color: whitesmoke;
+}
